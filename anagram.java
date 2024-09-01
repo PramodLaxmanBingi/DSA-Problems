@@ -1,4 +1,5 @@
-public class Anagram {
+import java.util.*;
+public class anagram {
     public static boolean anagram(String str1, String str2) {
         String s1 = str1.toLowerCase();
         String s2 = str2.toLowerCase();
@@ -26,4 +27,5 @@ public class Anagram {
         String str2 = "olleg";
         System.out.println(anagram(str1,str2));
     }
+    
 }
